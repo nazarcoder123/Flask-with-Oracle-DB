@@ -1,9 +1,9 @@
 # To Run this repo
- git clone 
+ git clone https://github.com/nazarcoder123/Flask-with-Oracle-DB.git
 
- # create python env with python --version == 3.10.0
+ create python env with python --version == 3.10.0
 
- # pip install -r requirements.txt
+ pip install -r requirements.txt
 
  # open your oracle database run the below query
 
