@@ -1,2 +1,17 @@
-# Flask-with-Oracle-DB
-In this project i have created a small application using flask &amp; oracle database
+# To Run this repo
+ git clone 
+
+ # create python env with python --version == 3.10.0
+
+ # pip install -r requirements.txt
+
+ # open your oracle database run the below query
+
+ CREATE TABLE guests (
+    id SERIAL PRIMARY KEY,
+    name VARCHAR(80),
+    email VARCHAR(120)
+);
+
+# Then open VS code terminal then run then below command
+ flask run
